@@ -1,0 +1,15 @@
+Title: Borrow and return books.
+
+As a librarian,
+I want to record when books are borrowed or returned,
+so that I can track books.
+
+Scenario 1: Books borrowed should be removed from the book list.
+Given that I have a book list with 5 books,
+when two books is borrowed,
+then I should have a book list with 3 books.
+
+Scenario 2: Books returned should be added to the book list.
+Given that I have a book list with 5 books,
+when a book is returned,
+then I should have a book list with 6 books.
